@@ -7,7 +7,7 @@
 
 2 Создать черерез него нового бота и получить ТОКЕН
 
-3 Создать на своем сервере страницу <robot.php> Это будет ваш Webhook
+3 Создать на своем сервере страницу robot.php Это будет ваш Webhook
 
 5 Прикрутиь https к вашему сайту! Для этого понадобится ssl сертификат. Подойдет самописный. 
 Как его создать, описано тут https://core.telegram.org/bots/webhooks#a-self-signed-certificate
@@ -17,7 +17,7 @@
 
 6 Связать свой Webhook с сервером Telegram
 
-curl -F "url=https://<Ваш сайт>/<robot.php>" -F "certificate=@<Ваш сертификат>.pem" https://api.telegram.org/bot<Ваш токен>/setWebhook
+curl -F "url=https://<Ваш сайт>/robot.php" -F "certificate=@<Ваш сертификат>.pem" https://api.telegram.org/bot<Ваш токен>/setWebhook
 
 Это все! Если не запутилось, смотрите сертификат
 
