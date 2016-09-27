@@ -19,15 +19,20 @@
 
 curl -F "url=https://<Ваш сайт>/robot.php" -F "certificate=@<Ваш сертификат>.pem" https://api.telegram.org/bot<Ваш токен>/setWebhook
 
-Это все! Если не запутилось, смотрите сертификат
+Это все!
+
+Если не запутилось, смотрите сертификат
 
 ------
 
 Выставить в BotFather
+
 setprivacy - DISABLED
+
 чтобы получить доступ ко всем сообщениям приложения, а не только к тем, что вводятся как команда: /example
 
 ------
 
 Проверить работет вебхук  или нет, можно так https://core.telegram.org/bots/webhooks#testing-your-bot-with-updates 
+
 Проставьте свой чат id на котором стоит бот
