@@ -29,5 +29,5 @@ setprivacy - DISABLED
 
 ------
 
-Проверить работет вебхук  или нет, можно так https://core.telegram.org/bots/webhooks#testing-your-bot-with-updates
+Проверить работет вебхук  или нет, можно так https://core.telegram.org/bots/webhooks#testing-your-bot-with-updates 
 Проставьте свой чат id на котором стоит бот
